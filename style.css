@@ -1,0 +1,131 @@
+body{
+    background-color:darkslateblue;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#ababab;
+}
+.title{
+    font-size:1.25em;
+    margin-right: 60em;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.menu-item{
+    margin-right: 1.25em;
+    font-size:2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.over{
+    text-align: center;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
+h1.id1{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;    
+}
+p{
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+h1.id2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    font-size: 30px;
+}
+em{
+    border: solid blue;
+    border-radius: 20px / 10px;
+    box-shadow: 3px 3px 3px black;
+}
+.contenant{
+    display: flex;
+    margin: 0px 200px;
+    justify-content: space-between;
+}
+.contenant p{
+   width: 600px;
+   font:400 16px Roboto, Arial, sans-serif;
+   text-align: justify;
+}
+p{
+   font:400 16px Roboto, Arial, sans-serif;
+   text-align: justify;
+}
+.over1{
+    display: block;
+    justify-content: center;
+    overflow: hidden;
+    width: 90em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-over1{
+    width:40em;
+    height:30em;
+}
+h1{
+    text-shadow: 5px 5px 10px black;
+}
+h1.id3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    font-size: 30px;
+    margin-top: 50px;
+}
+h1.id4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    font-size: 30px;
+    margin-top: 50px;
+}
+h1.id5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+    font-size: 30px;
+    margin-top: 10em;
+}
+.video{
+    text-align: center;
+    margin-top: 120px;
+}
+h2{
+    color:crimson;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+h3{
+    font-size: small;
+    color: coral;
+    text-align: center;
+}
+footer{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    text-align: center;
+    background-color: grey;
+    margin-top: 200px;
+}
